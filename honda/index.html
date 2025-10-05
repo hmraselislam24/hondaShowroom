@@ -456,27 +456,11 @@
 
 
 
-        // jqure
-        $(document).ready(function () {
-            $('.counter').each(function () {
-                var $this = $(this);
-                var countTo = parseInt($this.text(), 10);
-
-                $this.prop('Counter', 0).animate({
-                    Counter: countTo
-                }, {
-                    duration: 4000,
-                    easing: 'swing',
-                    step: function (now) {
-                        $this.text(Math.ceil(now));
-                    }
-                });
-            });
-        });
 
     </script>
 
     <script src="lb/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 
 </html>
