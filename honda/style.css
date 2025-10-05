@@ -1,0 +1,228 @@
+.hvr{
+    color:white;
+    padding-left:15px ;
+
+}
+.hvr:hover{
+background-color: black;
+color: white;
+}
+
+
+.line{
+    width: 130px;
+    height:1px;
+    background: gray;
+    margin: auto;
+    justify-content: center;
+    
+}
+.line-d{
+    background: #3498db;
+    width: 50px;
+    height: 4px;
+    margin: auto;
+}
+.btn-bg{
+    background: #74bae9;
+    padding-inline: 20px;
+
+}
+.text{
+    color: #3498db;
+}
+
+
+.width{
+    width:50px;
+    height:50px;
+    line-height: 50px;
+    transition: .3s;
+    
+}
+.icon-width::before{
+    vertical-align: 1px;
+}
+.icon-width{
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    transition: .3s;
+    border: 2px solid gray;
+}
+.card-hvr{
+    transition: .3s;
+    background: rgb(241, 241, 241);
+}
+.card-hvr img{
+transition: .3s;
+}
+
+.card-hvr h3, 
+.card-hvr p{
+    transition: .3s; 
+}
+.card-hvr:hover h3,
+.card-hvr:hover p,
+.card-hvr:hover img{
+    color:white !important;
+    transform: translateY(-10px);
+
+}
+.card-hvr:hover {
+    background: #e60d0d !important;
+    color: white !important;
+ 
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    line-height:40px;
+    
+    border: 2px solid gray;
+    border-radius: 50%;
+    transition: .3s;
+}
+.icon::before{
+    vertical-align: -1px;
+}
+.contact-icon{
+    width: 40px;
+    height: 40px;
+    line-height:40px;
+    text-align: center;
+
+    
+}
+.contact-icon::before{
+    vertical-align: -1px;
+}
+.contact-icon:hover{
+    color: #e60d0d!important;
+    border-color: #e60d0d!important;
+}
+.icon-width:hover{
+    color: #e60d0d!important;
+    border-color: #e60d0d!important;
+}
+.my-btn{
+   
+    background: #ffffff00;
+    color:white;
+    border:2px solid #09a761 ! ;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-top: 10px;
+    transition: .3s;
+}
+.my-btn:hover{
+    background: #09a761;
+    color:black;
+    border-color: #09a761 !important;
+}
+.fixed-bg{
+    background-image: url('img/cta-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.posi{
+    top:-20px;
+    left:45%;
+    
+}
+table, th ,td{
+    border:1px solid gray;
+    border-collapse: collapse;
+    padding: 20px;
+}
+table{
+    width:50%;
+}
+.grid2 img{
+   
+    width: 100%;
+}
+.grid3 img{
+   
+    width: 100%;
+}
+.borderd{
+    border:1px solid gray;
+    padding: 15px;
+}
+.grid3{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+
+    gap:10px;
+    
+}
+
+.second-btn{
+    
+    background: #49b5e7;
+    color:white;
+    border:none;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+.watch-btn{
+    border: none;
+    background: none;
+
+}
+
+
+.grid4{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+
+    gap:5px
+    
+}
+.grid4 img{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    padding: 10px 0;
+}
+.flex h3, p{
+    margin: 0;
+}
+.grid5{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10%;
+}
+form button{
+
+    margin:5px 0;
+    text-transform: uppercase;
+    background: #49b5e7;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.adj-height{
+    height:400px;
+}
+
+.input:focus{
+
+  border-color: red;    
+
+  box-shadow: 0 0 0 0.25rem rgba(255, 0, 0, 0.25); /* subtle glow */
+}
+
+/* Optional: hover state */
+.input:hover {
+  border-color: orange;
+}
+
